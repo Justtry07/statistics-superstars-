@@ -1,0 +1,10 @@
+DATA CLEANING LOG
+==================================================
+
+[OK] Removed 1 duplicate rows
+[OK] Converted 'species' to categorical
+[OK] Capped 4 outliers in 'sepal width (cm)' to [2.05, 4.05]
+[OK] Added 'sepal_area' (length x width)
+[OK] Added 'petal_area' (length x width)
+
+Final shape: (149, 7)
